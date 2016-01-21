@@ -44,5 +44,7 @@ int main()
 3. for "signup" we make a form in this to take details name, mob no. , email , password etc. store this in data base
 4.for "signin" we will chk email and password of the user then user logs in
 5. then client can choose destination , dates , chk fare, availability.
+6.only after logs in user can confirm his journey else he can only inqire about location and fare.
+*this is the very basic approach*
 
 
