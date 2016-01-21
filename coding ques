@@ -1,0 +1,41 @@
+1.//check for repeated number
+int main()
+{
+int i, A[];
+for (i=0;i<A[i];i++);
+{
+if(A[i+1]-A[i]==0)
+cout<<"number repeated";
+break;
+else
+cout<<A[i];
+}
+
+
+3.//to find pair closest to zero
+void printClose(int arr[], int n)
+{
+    int l = 0, r = n-1, diff = INT_MAX, left, right;
+     while (r > l)
+    {
+       if (abs(arr[l] + arr[r] - 0) < diff)
+       {
+          left= l;
+          right = r;
+           diff = abs(arr[l] + arr[r] - 0);
+       }
+       if (arr[l] + arr[r] > 0)
+           r--;
+       else 
+           l++;
+    }
+    cout <<" The pair close to zero is " << arr[left] << " and " << arr[right];
+}
+int main()
+{
+    int arr[] =  {15, 5, -20, 30, -45};
+    printClose(arr, n);
+    return 0;
+}
+
+
