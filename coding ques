@@ -38,4 +38,11 @@ int main()
     return 0;
 }
 
+2.//website for a travel company
+1. first we will make header of the web page "welcome to xyz company" and adjust its properties
+2.then we make two tabs on page "signup" "sign in"
+3. for "signup" we make a form in this to take details name, mob no. , email , password etc. store this in data base
+4.for "signin" we will chk email and password of the user then user logs in
+5. then client can choose destination , dates , chk fare, availability.
+
 
